@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kinoheroes</title>
+    <link rel="icon" type="image/png" href="print\spider-man-cover-sdcc-2018-1-360x240.png" alt="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="sortandsub.css">
+    <script src="https://kit.fontawesome.com/84c5ed9ab4.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <!--Список-->
+    <section>
+        <ul id="ul">
+            <li>Нужен</li>
+            <li>Текст</li>
+            <li>мне для моего</li>
+            <li>оригинального</li>
+            <li>навороченного списка</li>
+        </ul>
+    </section>
+    <script src="Javas/spis.js"></script>
+    <!--Ползунок-->
+    <div id="slider" class="slider"><div class="thumb"></div></div>
+    <script src="Javas/slid.js"></script>
+    <!--Анимации-->
+    <progress id="elem"></progress>
+    <div id="boxanim"><div id="circ1e"></div></div>
+    <script src="Javas/anime.js"></script>
+    <!--Перетаскиваемая корзина-->
+    <section>
+        <div class="corzin">
+            <div class="shop">
+                <div class="item"><img src="print/funko.jpg">
+                    <span class="cost">22$</span>
+                </div>
+                <div class="item"><img src="print/funko1.jpg">
+                    <span class="cost">34$</span>
+                </div>
+                <div class="item"><img src="print/funko2.jpg">
+                    <span class="cost">47$</span>
+                </div>
+            </div>
+            <div id="sumi" class="sumi" onmouseover="placeable = true" onmouseout="placeable = false"><span id="totalCost" class="totalCost">0</span></div>
+        </div>
+    </section>
+    <script src="Javas/final.js"></script>
+    <script src="Javas/basket.js"></script>
+</body>
+
+</html>

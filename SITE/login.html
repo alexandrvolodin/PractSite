@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Kinoheroes</title>
+        <link rel="icon" type="image/png" href="C:\MIREA\ИКБО 18-21\SITE\print\spider-man-cover-sdcc-2018-1-360x240.png" alt="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="C:\MIREA\ИКБО 18-21\Site\123.css">
+        <link href="C:\MIREA\ИКБО 18-21\Site\reset.css">
+        <script src="https://kit.fontawesome.com/fc80c950cb.js" crossorigin="anonymous"></script>
+        <script src='trace.js'></script>
+    </head>
+   <body>
+       <form method="post" >
+           <p><label class="raz"><input type="text" required placeholder="&nbsp;"><span>Логин</span></label></p><br>
+           <p><label for="userpassword" class="raz"><input id="userpassword" type="password"  required="required" placeholder="&nbsp;"><span>Пароль</span></p><br>
+            <p><label for="age">Ваш возраст: <input type="number" id="age" min="1" max="110">
+           <p><label><input type="tel" id="phone" required placeholder="Номер телефона" pattern="[0-9]{11}" class="raz0"></label></p>
+           <p><label><input type="email" id="email" required placeholder="Электронный адрес" class="raz0"></label></p>
+           <p><label><input type="file" id="file"></label></p>
+           <p><label><input type="datetime-local"></label></p>
+           <p><label>Ваши желания:<br><textarea class="coltextin" required id="story" name="story" rows="6" cols="35" minlength="10" maxlength="1000" placeholder="Введите текст"></textarea></label></p>
+            <label for="hero">Любимый герой</label><br><select size="4" multiple required name="hero" id="1hero" class="raztext">
+                <option disabled value="">-- Выберите любимого героя --</option>
+                <option value="ironman">Железный человек</option>
+                <option value="bat">Бэтмен</option>
+                <option value="spid">Человек паук</option>
+                <option value="poter">Гарри Потер</option>
+                <option value="superman">Супермен</option>
+            </select><br>
+           <fieldet>
+               <legend>Укажите свой пол</legend>
+               <p><label><input type="radio" name="sex">Мужчина</label></p>
+               <p><label><input type="radio" name="sex">Женщина</label></p>
+               <p><label><input type="radio" name="sex" checked>Гендерно-нейтральный</label></p>
+           </fieldet>
+           <fieldet>
+               <legend>Откуда вы узнали о киногероях</legend>
+               <p><label><input type="checkbox" name="sex">Литература</label></p>
+               <p><label><input type="checkbox" name="sex">Кино</label></p>
+               <p><label><input type="checkbox" name="sex">Прочее</label></p>
+           </fieldet>
+           <p><label><input type="submit"></label></p>
+</form>
+
+<div class = "notification">
+  <div class = "notBtn" href = "#">
+    <div class = "number">2</div>
+    <i class="fa fa-bell" aria-hidden="true"></i>
+      <div class = "boxbe">
+        <div class = "display">
+          <div class = "cont">
+             <div class = "sec new"><div class = "txt">Джеймс лайкнул вас</div></div>
+             <div class = "sec new"><div class = "txt">Макс репостнул вас</div></div>
+         </div>
+        </div>
+     </div>
+  </div>
+</div>
+          
+           <p><button disabled>Кнопочка</button></p>
+           <a href="#" class="bucn_2_r">Кнопка</a>
+           <a href="#" class="glo">Кнопка</a>
+           <a href="#" class="button square-1 blue effect-4">Кнопка</a>
+           <a href="#" class="wsa_7s rrr17">Кнопка</a>
+           <button class="dot1" onclick="draw()"><div class="heart"></div></button>
+        <div class="notifs">
+            <button class="notif__btn" type="button">
+                <i class="fa-solid fa-bell"></i>
+                <div class="notif__counter"></div>
+            </button>
+            <div class="notif__inner">
+            </div>
+        </div>
+           <script src="Javas/notificc.js"></script>
+           <div class="video">
+           <video controls src="C:\MIREA\ИКБО 18-21\SITE\print\video.mp4" poster="C:\MIREA\ИКБО 18-21\SITE\print\432945-Kysb_2560x1440.jpg" preload="none" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></video>
+           <div class="image__overlay image__overlay--primary"><div class="image__title">Киногерои</div><p class="image__description">Немного видюхи</p></div>
+           </div>
+    <ul class="social-icons">
+        <div class="icon"></div>
+      <li><a class="social-icon-twitter" href="https://twitter.com" rel="noopener"></a></li>
+      <li><a class="social-icon-fb" href="https://www.facebook.com" target="_blank" rel="noopener"></a></li>
+      <li><a class="social-icon-vk" href="https://vk.com" target="_blank" rel="noopener"></a></li>
+      <li><a class="social-icon-telegram" href="https://t.me"  target="_blank" rel="noopener"></a></li>
+      <li><a class="social-icon-youtube" href="https://www.youtube.com" target="_blank" rel="noopener"></a></li>
+    </ul>
+    <script src='but.js'></script>
+   </body>
+</html>
+   
